@@ -37,7 +37,13 @@ class_names = [
 
 # ------------------ Flask App ------------------
 app = Flask(__name__)
-CORS(app)
+# List of allowed frontend origins
+origins = [
+    "https://vercel-frontend-hazel-nu.vercel.app", 
+    "http://localhost:3000"
+]
+
+CORS(app, origins=origins, methods=["GET", "POST"])
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
