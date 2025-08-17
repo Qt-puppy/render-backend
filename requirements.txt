@@ -129,9 +129,9 @@ threadpoolctl==3.5.0
 tinycss2==1.4.0
 tokenizers==0.21.0
 toml==0.10.2
-torch==2.6.0.dev20241221
-torchaudio==2.6.0.dev20241221
-torchvision==0.22.0.dev20241221
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
