@@ -1,8 +1,8 @@
 Flask==2.2.5
 Flask-Cors==4.0.0
 gunicorn==21.2.0
-torch==2.5.1
-torchvision==0.15.2
-torchaudio==2.5.1
+torch==2.8.0
+torchvision==0.18.0
+torchaudio==2.8.0
 numpy==1.26.4
 Pillow==10.3.0
