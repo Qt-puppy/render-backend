@@ -39,7 +39,7 @@ class_names = [
 app = Flask(__name__)
 # List of allowed frontend origins
 origins = [
-    "https://vercel-frontend-hazel-nu.vercel.app", 
+    "https://vercel-frontend-hazel-nu.vercel.app/", 
     "http://localhost:3000"
 ]
 
