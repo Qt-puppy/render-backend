@@ -47,7 +47,7 @@ device = torch.device("cpu")
 model = PlantCNN(num_classes=len(class_names))
 
 # Load model weights
-model_path = "model_name.pth"  # make sure it's in same folder as app.py
+model_path = "crop_disease_model.pth"  # make sure it's in same folder as app.py
 state_dict = torch.load(model_path, map_location=device)
 model.load_state_dict(state_dict)
 model.to(device)
