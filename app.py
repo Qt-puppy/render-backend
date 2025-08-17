@@ -43,7 +43,7 @@ origins = [
     "http://localhost:3000"
 ]
 
-CORS(app, origins=origins, methods=["GET", "POST"])
+CORS(app, resources={r"/analyze": {"origins": "*"}})
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
